@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",                     /* Versão do ECMAScript a ser compilada */
+    "module": "commonjs",                /* Sistema de módulos a ser utilizado */
+    "lib": ["es6"],                      /* Conjunto de definições de tipo disponíveis (por exemplo, "es6" para incluir as definições do ECMAScript 6) */
+    "outDir": "./dist",                  /* Diretório de saída para os arquivos JavaScript transpilados */
+    "rootDir": "./src",                  /* Diretório raiz onde os arquivos TypeScript estão localizados */
+    "strict": true,     
+    "sourceMap": true,                 /* Habilita todas as opções de verificação estrita */
+    "esModuleInterop": true,             /* Permite importar módulos CommonJS com a sintaxe ES6 import */
+    "forceConsistentCasingInFileNames": true /* Garante consistência de maiúsculas/minúsculas em nomes de arquivos */
+  },
+  "include": ["src"],                   /* Padrão de inclusão de arquivos TypeScript */
+  "exclude": ["node_modules", "dist"]   /* Padrão de exclusão de arquivos TypeScript */
+}

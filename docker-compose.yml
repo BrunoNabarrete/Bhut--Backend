@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+  rabbitmq:
+    image: rabbitmq:management
+    ports:
+      - "5672:5672"   # Porta para o RabbitMQ
+      - "15672:15672" # Porta para o RabbitMQ Management Plugin (interface web)
+    volumes:
+      - ./rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf:ro
+      - ./definitions.json:/etc/rabbitmq/definitions.json:ro
