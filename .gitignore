@@ -12,9 +12,6 @@ yarn-error.log*
 package-lock.json
 yarn.lock
 
-# Environment variables
-.env
-
 # IDE/Editor specific files
 .vscode/
 .idea/
