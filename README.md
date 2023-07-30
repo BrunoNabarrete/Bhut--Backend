@@ -7,7 +7,7 @@ Projeto simples para o teste de backend na BHUT.
 - Docker compose 
 
 ## Iniciando agora ?
-Clone este repositório.
+Clone este repositório, abra o terminal e rode: npm istall, npm run build, npm run start:dev
 
 ## Rodando o projeto
 Para começar, é necessário apenas rodar: docker compose up -d --build.
